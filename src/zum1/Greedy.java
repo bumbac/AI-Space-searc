@@ -6,7 +6,7 @@ public class Greedy {
     private int nodesExp = 0;
     private int pathLength = 0;
 
-void makePath(Map map) {
+void makePath(Map map, int printflag) {
     Map.Node start = map.list[map.startx][map.starty];
     Map.Node goal = map.list[map.goalx][map.goaly];
     int i, j;
@@ -17,14 +17,18 @@ void makePath(Map map) {
     while (!open.isEmpty()) {
         node = open.poll();
         node.flag = 1;
-        previous.symbol = '@';
+        previous.symbol = 'o';
+        if (printflag == 1) {
+            System.out.println("-------------");
+            map.print();
+        }
         if (node == goal) {
             System.out.println("Finish");
             node.symbol = 'E';
             node = node.parent;
             while (node != null) {
                 pathLength++;
-                node.symbol = '@';
+                node.symbol = 'o';
                 node = node.parent;
             }
             start.symbol = 'S';
@@ -37,7 +41,7 @@ void makePath(Map map) {
                 if (n.flag == 0) {
                     open.add(n);
                     nodesExp++;
-                    n.symbol = '.';
+                    n.symbol = '#';
                     n.flag = 1;
                     n.parent = node;
                 }

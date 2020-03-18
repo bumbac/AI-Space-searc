@@ -21,29 +21,30 @@ public class Client {
             if (Objects.equals(response, "y") ||Objects.equals(response, "Y") || Objects.equals(response, "yes"))
                 map.print();
             System.out.println("===========================");
-            System.out.println("BFS path:");
-            BFS bfs = new BFS();
-            bfs.makePath(map);
-
-
-            System.out.println("Do you wish to print the map " + filename + "?" );
+            System.out.println("Do you wish to print the steps of BFS?" );
             System.out.println("Write Y or N");
             response = scanner.nextLine();
+            int printflag = 0;
             if (Objects.equals(response, "y") ||Objects.equals(response, "Y") || Objects.equals(response, "yes"))
-                map.print();
+                printflag = 1;
+            System.out.println("BFS path:");
+            BFS bfs = new BFS();
+            bfs.makePath(map, printflag);
+            map.print();
             System.out.println(">>>>>>>>>>>>>>>>Text file with map saved as outBFS.txt");
             map.save("testBFS.txt");
             map.cleanMap();
             System.out.println("===========================");
-            System.out.println("Greedy path:");
-            Greedy greedy = new Greedy();
-            greedy.makePath(map);
-
-            System.out.println("Do you wish to print the map " + filename + "?" );
+            System.out.println("Do you wish to print the steps of Greedy algorithm?" );
             System.out.println("Write Y or N");
             response = scanner.nextLine();
+            printflag = 0;
             if (Objects.equals(response, "y") ||Objects.equals(response, "Y") || Objects.equals(response, "yes"))
-                map.print();
+                printflag = 1;
+            System.out.println("Greedy path:");
+            Greedy greedy = new Greedy();
+            greedy.makePath(map, printflag);
+            map.print();
             System.out.println(">>>>>>>>>>>>>>>>Text file with map saved as outGreedy.txt");
             map.save("testGreedy.txt");
             map.cleanMap();
