@@ -23,7 +23,6 @@ void makePath(Map map, int printflag) {
             map.print();
         }
         if (node == goal) {
-            System.out.println("Finish");
             node.symbol = 'E';
             node = node.parent;
             while (node != null) {
@@ -32,6 +31,8 @@ void makePath(Map map, int printflag) {
                 node = node.parent;
             }
             start.symbol = 'S';
+            System.out.println("Finish");
+            map.print();
             System.out.println("Nodes expanded: " + nodesExp);
             System.out.println("Path length: " + pathLength);
             return;

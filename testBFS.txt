@@ -1,93 +1,55 @@
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-X###########################################X#########X#########X###########X
-X#XX#XXXXXXX#XX#X#XX##XX#X#X##XXX#X#X#XXX#####XX#XX#X##X####X########X#XXXX#X
-X###X###########X#######X#######X###X###X#########X#####X###################X
-X#X###XXXXXXX##X##X####XX#XXXXX#X###XX#X##X#XX#X##X#XXX#XX#X##XXXXXX##X#XXX#X
-X#X###X#####X#X#############X###X###X###X#X#X#######X#X#######X#####X#X#X#X#X
-X#X##X######X#X#XXXXXXXXX#XXX##XX#X#X#X#X###X#XX#XXXX#XXXX#XXXXXXXX###X#X#X#X
-X#########X#X#X#####X###XooSX###X#####X#X###########X#####X#############X###X
-X##XX#X#X###X##XXXX#XX##XoX#XXX#X#XX##X#X#XXX##XXXX#X#XXXXX#XX##XXX#XXXXX#XXX
-X#####X#X#X#######X###X#XoX#####X###X#X#X###X###X###X#####X#X#X###X#####X###X
-X##XXXX#X##X#XXXX#XX##X#XoX##XXXX#X#X###X###XXXX####X##XX#X###XXX###X#X#XXX#X
-X###########X#####X###Xooo##X#####X###X###########X#####X###################X
-XXX#X#X#XXX#X#XXXX##X#Xo#XXXXX##X#X#X#X####XX#XXXXXX#XXXXX###XXX##X#X###XXX#X
-X#X###X###########X#Xooo########X#X#####X###########X###################X###X
-X#XX#XX#XXX#XXX#X##oooX#XXX##XXXX#X#XXXX###XXX#XXXX###XXXXX#X##X#X##XXX###X#X
-X#######X#####X#X##oX###X#######X###################X#################X#####X
-X#XXX#XX X#XXX#####oXXXX##XX#####XX###XXX###XXX#XXX#X#X#XXXX#X#XXXXXXX#XXX##X
-X###X###X#######X#Xo############X#########X###########X#######X#############X
-XXX#XXX###XX#X#XX#XoXX##X#XXX#XXX###XXX##XX##XX##XXXX#X#X#XXX######XX##XXX##X
-X#######X#######X#XoX###X###X#X###X#X#############X#############X#####X#####X
-XX#XX#X###XX######Xo##XX#XX#X###XX##X#X##XX#X#XXX###XXX#X###X###X#XXXX#X#XX#X
-X###X#X#########X##o##############X#X#X#####X#####X#X#####X###############X#X
-X#X#X#X#XXXXXX##XXXoX#X#XX#XXXX#X###X###X#X#X#XXXXX#X##XXXX#X#X#XX#XXX#XX#X#X
-X#############X###Xo############X#X#X#X#X#X#########X###X###X#X#############X
-X##XXXX#X#X#X#XX##XoX#XXXX#XXXX#X#X###X#XXX###X#X#XXXX#X####X###XXX####X#X##X
-X###########X#####Xo######X###X#X###X###X#################X###X#############X
-X#X###X##X##XXXXXXXo##XXX##XX#X#XXX#X#XX####XX#XX#XXXXX#####X#X#X####XXX#XXXX
-X#X#X##############o######X###X#####X#####X###############X#####X#X#########X
-X#X###X#X#XX#XXXXXXoXXX###X#XXXXXXX#XXXX#XX##XX#X####XX#X#XXX#X#XXX#XX##X###X
-X#####X###X#######Xooo##X#X###############X#########X#############X#######X#X
-X#X#X##XXXX##XX#XXX#XoX#X###X###XXXXXXXXX#XX##X#X#X#X#XXX##XXXXX##XXXXX#X#X#X
-X#############X###X#Xo##X#####X#############X###X#X###X###X###############X#X
-X#X#X#X#X#XXX##XX#X#XoX#X#X##XX#X#XXXXX#XXX#####X#XX#XX#X#####XXXX#X#XXXX#X#X
-X#######X#X###X###X##oX###X#############X#####X#######X#X#X#X###############X
-X#XXXXX###X#XXX#X##X#oX#X#XXX###X#X#XX####X#X##XXX#X##X#X#X#XXXXXXXXX##X##X#X
-X#########X#########Xoo#########X#X#####X###X#####X###X###X#####X###########X
-X#X#X#XXXX#XX#X#XXX#X#oX##X##X#XX#X#X#X#X#X#XXXXX#####X#X##XX#X#XX#XX#XXXXX X
-X#####X#########X#X#X#ooX#######X###X#X###X#####X###X###X#####X###X#######  X
-X###XXX#XXXX#XX#X#X#X#XoX#XX#XX#XXX#####X###XXX###X###XXXX#XX#XXX#X#X#XXX X X
-X#############X#X######oo#######X###X#X#####X#######X###########X#######    X
-XXXXX##XXX#X#XX#X##XXXXXoXX###X#X#XXX#X#X###X#XXX###X#X#XXX#X#XXXX#XX## XXXXX
-X###############X#####ooo###X#X#####X#####X#X#######X###X#####X###X# #      X
-X#XX#X####XXXXX#X#XXXXoXX#XXX#X###X##X#XX#X#XXXXXX##X###X#XXX###X###XXX X X X
-X#######X#######X#X##oo###X###X###X#####X#X#########X###X###X#######X   X   X
-X####XX###XX##X#X###XoXXXXX#XXX#X###X#X#X###XXXXX#X#X#X#XXX###XXXXXX XXXX X X
-X###X#X#X#####X###X##o####X#####X#########X###############X#########        X
-XXX#X#X#X#XX####X#XXXoXXXX XX#X#X#X##X####XXXXXXX#X##XX#XXXX#XXXX#XXXXXX X  X
-X#####X#X###X#X#X#Xooo####X#####X#######X#####X#########X####### #        X X
-X##XXXX##X####X#X#XoXXXXX#X###XX#XX#XXXXX#X##X######XX#XX#X#X## X  XXXXXX X X
-X###X###X###X#####Xo######################X#X###X#########X#X#            X X
-XXX#X#XXX#X#X#XXXXXoXXX#XXXXX#XXX######XXXX#X###XXX#X#XXX#X#X  X X X X XX   X
-X#########X########ooo##X###########X###X###########X#X#######X     X       X
-X#XXX#XXXX##X#XXX#XXXo#XX#XXX###X##XX#####X#####XXX#X#XXX###XX  XXX XXX XXXXX
-X###X#####X#X######ooo####X#X###X###X###X#####X###X#X#######                X
-XX##X#X#X###XXX#XXXoXXXXX###X#########XX####X##XX####X#XXXXXX XX   XXXXXX   X
-X#X#X###X#X#X###X#ooX#######X#X#############X#####X#######X                 X
-X#X#X#X#X#X###XXX#oXXXX########X##X#XXXXX#X#X##XX#X#XX#XXX    XXX X XXXX    X
-X#######X###X###X#o###########X###########X#######X#X###    X   X X     X   X
-X#XX##X###X#X#XX#XoXXXX#XXX#######X#X##XXXX##XXXXXX#X XXXX  XXX X X       XXX
-X#######X#X#X#####oo########X#######X###############X     X         X       X
-X#X#X#XXX#X#X#XXXXXo#XX#XXX###X##XXXXXX#X#XX##XXXXXXXXXXX X X X XXXXX       X
-X#####X###########Xo####X#######################      X               X     X
-XXXX####XX#X#XXXX#XoXXX##########XX###XXXXXXXX#XXXX X X XX X  XXXX    X   X X
-X   X############ooo##########X######                 X     X X           X X
-X XX##XXX##XXXXXXoXXXXX#X#XX##X#XXX# XXX  XXXXX   X XXX   X   X X X XXX  X  X
-X   X#X######### E    ############X   X       X       X       X       X   X X
-XXX   X#XXX###XXXX XXXX#X#X#XXX###X X XX      XXX XX XXXXXX X X XXXXX X X X X
-X     X# #####X         X ### ##X   X X   X         X       X     X   X X   X
-X XXX X   #XX X      X  X X#  XXXX  X X XX X XXXX X X X X  X    X    XX XX  X
-X   X X       X         X X         X X     X     X   X   X   X X       X   X
-XX  X XXX XXXX XXXXXXXX   X   XXXXX X X XXX X  XX   XXXXX   XXXXXXXXX      XX
-X         X X           X           X       X X X                 X     X   X
-X X X XX XX X X XXX XX XX   X  XX X X   X XXX X XXX XXX X XXXXX X  XX    XX X
-X           X                   X       X         X X     X X     X   X X   X
-X  XX XXX X XX XXX  X X  XX XXX    XX   X X     X X X XX X     XXXX X XX   XX
-X     X X           X X   X   X X       X X       X         X       X       X
-X XXX X X X XXX X X X  X  X X X X   XXX  XXXXXXXX    XXXX   XXXXXXX X    X  X
-X   X   X         X     X X X   X               X   X                 X     X
-X   X     XXXXXX  XX XX   X   XX  X   XXX  X XX   X  X    XX XXX   XX X XXX X
-X   X   X             X X   X X   X X                 X X       X   X   X   X
-X  XXX     X XX X   XX  XXX X XXX X X XX XXX XX XXXXX X XXX  X  XXX X X X   X
-X         X     X       X   X   X                     X   X X X       X     X
-X XXX X X X   X   X XXXXX X   X X X XXXXXXXXX  X XXXXXXX    X XXX   X X  XX X
-X   X                     X     X   X           X     X   X X       X   X   X
-XX  X X X XXX XXXXXXXXXXXXX   XX  XXX    XXX XX X XX  X XXX X XXX  X  X   X X
-X   X X       X           X   X   X   X X       X       X   X X       X X X X
-X   X XXXXX      XX XXXX XX X X X XXX X X  XXXXX XXX  XX   X XX  X  XXX X X X
-X   X   X       X       X     X     X X X   X       X X   X       X X   X   X
-XXX X XXX   XX    XX X  X XXXXX  XX X X XX  X XX XX XX  XXX X XXX X X XXX   X
-X   X     X X   X   X   X X           X X     X   X     X   X     X   X     X
-X X   X XXX X XX    X XX  X X XXXXXXX      XX X   X   X   XXXXXX X  XX  XXX X
-X   X                         X                                             X
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+X#################X###############################X#####################X#########################X#######X#####################X###############X#########X
+X#X##XX#X#XXXX####X#XX######XXXX#X###XX#X#XXXXXXXXX#X##XXXXX#X#XX#XXXX####X#XX#XXX#X#X##XX##XXXXX#X#X#XX##X#####XXXXX##XX#X#X#####XXXXX##XXXXXX#X#X#X#XX##X
+X#####X#X#######X#X#######X#########################X###################X#X#####################X###X###X#############X###X###X#X#####X#X#############X## X
+XXX###X#X#X##X##X#XXXXXXX#X#X#XXXX#XXXX##XXXXXXX#XX##XX#XX#X##X#X#XXXXX#####XX#X#X#XX#X###XX###XXX#XX#XXXXXXXX#X#XXX##X##XX#X###XXXX####X#XXX#XXXXXXXXX##XX
+X#####X#X#########X#######X#X#####X###X###########################X#####X#X#####X###X#X###X#########X#########################X#######X#X#####X#########X X
+X####XX###XXX#X#####X#X#X#XXX#X#X#X#X#X#X#X#X#XXX##XX#X#####X##X##X#X#XXX#XX####X#X###XX##X#XX#X##X#X#XXXX#XXXX#XXXXXXX#XXXXX#X#XX#XXXX#X##X##X##XX####X##X
+X#X#####X###########X###X#######X#######X#########X#########X#####X###X###X#######X#X###X#X#######X#X#######X#####X###########X#########X#X#########X#####X
+X#X#X#XXXX#XXXXXX#X#X##XXXXX#XX#X#X#XXXXX##XX#X#X###XXXXX#X##XX#XX##XX##X#X#X#XXXX##XXX###XX#XX#X#X#X####XX#####XXX##XXXXX##X###X#X#XXX#XXX##XXXX#X###X#XXX
+X#X###X###########X###############X#######X###X#X###X###X###X#######X###X#############X###############X###X###X#X#####X#######X#############X#####X###X###X
+X####X###XXX#X#XX#XX######XXXXXX#XX###XXX#X###X#XX#XX#X#XXXXX#####XXX#XXX#X#X#XXX##XX##XXXXX#XXXXXX#XXX#X#XXX###X###X#X###X#X#X##XXX#XXXX#####X##X##X#X#X#X
+X#######################X#####X###########X#X#X#####X#X#######X####SX###X#########X###################X###########X###X###X#######X#####X###########X#####X
+X#X#XXXXXXX#XX#XXX###XX##X#XX#####X#X#XXXX########X###X#X###X#X##XXoXXX#X#XXX#####X#XXX#XXXX#XX#XXXX####XXXXX#XX#X##X#XX##X#X#X#X#X##X##XXXXXX###XX#X#X#X#X
+X###############X###############X#X#########X#######X###X#X########ooo##X#########X#X#X#############X###X#########X#X#X###X#######X###X###############X###X
+XXXXXXXX##XX####X#XXXXXXXXX#XXXXX#XXX#X#XXX#X#XXXX#XX#X#X#X###X###XXXoXX##X#XXX#XX######X#XXX#XXXXXXX#XXX#X#XXX#X#X#XX###XX#XXXXXXX###XXXXXX#XX#XXX#X#XX##X
+X#######X###X###############X#############X###########X#X#X###X######oooX#####X#####X#X#####X#X#######X###################X#######X###X###################X
+X##XX#X#XXX###X#XXXXXX#X##XXX###XXXX#XX###XX#XX#XXXX##X###X#XXX##X##X#XooXX#X#XXXX#XX#X###X###X#XXXXX###X#X#X#X###X#X#X#X#XX##X#X###X#X###XXX##XX#XX##X#XXX
+X#####X#####X#########X#######X#########X###############X#####X#####X#X#ooooooX#########X#X#X#X#####X###X#########X#####X#####X#####X#X#####X#X###X#X#####X
+X#XXX#X###X#X#X#X#X#X###XXX#X#XXXXX##XX#XXX###XXX#XXXXXXX#X#X###XXX#X#X###X#XoX##XXX#XX#XXX#X###XX##XXXXX#XXX#XXX#XXX###XXXX#X####XXX##XXXXXX###XXX#X#XXX#X
+X#####X#X#X###X#X#####X#####X#X#######X#########X###############X#########X#XoooooooooooooooX###########X###X###X#####X###ooooooooooooXoooooooooooooX#####X
+X#X###X#######X#XXX###XX#X#XX#X#X#X#XXX#XX#########XXXX#X#X#X#X#X##XX#XX#XXXX#X#X##XX#X##X#oooX#X###X##XXXX#####X#X###XX#ooX#XXXXXXX#oooX#XXX####X#oooXXX#X
+X#####X#######X#####X#########X#X#X###########X#########X###X#########X#######X#######X#X#X##oooooooooooooooX###X########oX#######X#########X###X####o####X
+X####XXX#XXXXXX#XXX#XXXXXX#XXX##X#XX##XXXXXX##XXX#XXXXXXXX##X#X#XXXXX#X#X#X#XXX##XX#X#X#X#X#XXX##XX#XXX##X#oooooXX#XXXXX#oX##XX###X#X#X#XXX##XXXX##XXo##X#X
+X#X#################X###X#######X#####X#########X#X#################X#########X###X#X###X#############X#####X#XoooooooooooX#######X###X###########Xooo####X
+X#XX##X#X#XXXXXXXX##X##X###X####XXX#XXX###X##XX###X#XX#XX#X#X#X#XXX#X#X#X#X#X##XXX##XX#XXXXXX##XXX##X#X#X#X###XXXXX#X#X#XX##XX####X#XXXXX####XX#XXXoXXXXXXX
+X#####X###################X#######X###########X#########X#X#X#####X#X#######X#########X###########X#X#X#X###X#####X###############X#####X#X#######XooooooEX
+XXXXXXX#X#X#X#X##X##X###XX##XXXXX#X#XXX##XXXX#X#X#XX##X#X#####XXX#X#X#XXXXX#XXXXXX#XX##X##XXX#XX##X#X#X#XXX#X#X#X#X##XXXXXX###XXX###X#X#X#X######XXX#XXX# X
+X#####X#####################X#####X#X#####################X###X#####X#####X###X#######X###X#X#########X###X###############X#X###X###X###X#X###X#X#######  X
+XX#XX#XXX#XX#XXXX#XX##X#XXXXX#XXX#X#X#XX##XXX#X##XXX##XXXXXX####XXXXX#X###X#X###XX###X###X####XX#X##X#XX####XXX###XXX##X##X#XXX###X#X#X#X##X#XX#X XXXXXXXXX
+X#########X#####X###################X#######X###############X#X#########################X#####X#########X#X#####X#X#########X###X###X###X#######X#####    X
+X###X#XXXXX#X#X#X###XX#XX#XX#XX#X#XX#X#XX#X#XXXX##X#XXXX##X#XXX##XXXXX##X#X#X#XXXX###XX#X#X#XXX##X#XXXX#X#X#X###X#X#XXXXXXXX##X###XXX####XXXXXX#XXX#X## X X
+X###########X#############X#####X#########X#####X#X#X#########X###X#####X###X#########X#########X###X#####X#X###X###############X###########X###X###X#X#  X
+X#X#XXX####XX#XXXX#XXXX#X#XX##XXXX##XX##XXXXX###X#X###XXX#XXX#XX##X#X#X####XX#XXXX##X#X#XXX#X#XXX#X#X#XX####X#X#XXX#X#XXXXXXX#XXX###XXXX#XXXX##XX#X###X#X X
+X#X#########X#################X#######X#####X#X###X#####X###X#####X###############################X###X#######X###X#X###X#########X#############X###X#####X
+X#X#X###XX##X#XXX#X####XXXXXXXX#XXXX##XXX#X####X##X#X###X#X##X#XX#X###XX##X###XXXX#XX###XX#XX###X#XX##X#XXXXX#X#X#X#XXX#X#XXXXXXXXX#XX#X#XX#XX##XX##XXX#X X
+X#########X#####X#X#X#####X#########X#####X#####X#X#X#X###X#########X#######X#####X###X#######X#X#X#########X#X###X#####X#############X###X#####X#######X#X
+X#XXXXXXX##XX#X#X#XXX#X#X#XX#X###X##XXXXX####X##X#X#XXXXXXXXXXXXXXXXXXX#X#X#XXXXX#X#XXX#XXX#XX##X#X#XXX#XXX###X##XX#XX#XX#X#X#X##XX###XX##XX#XX###XXXX####X
+X#######X#####X#X#######X###########X#####X###########################X#####X###X#####X#######X###X#########X#########X###X#####X#########X###########X#X#X
+X#XXX#X#XXX#X#XX#X#XXXX#XXXXX#X###XX##XX##XXXXXXX#XXXXXX###XXXXXXX#XX#X#X#X#####X#XX##X#X#XXX#X#XX#XXXXXX#X#X#XXX#X#XXX#XXX#X##XX###XXXX###X#XXXX#X#X#X#X X
+X#####X#####################X#X#X#####X#########X#####X#############X###X#X###X#X#####X#X###X###########X#X#X#####X#####X###X#####X#####X#####X###X###X#  X
+X#X#X###X##X##X#X####XXX##X#X#X#X####XXXX#X#X#XXX##X##X###X###X#XXX#X#XXX#X##X##XX#X##X#XXX#X#X###XXX#X#X#X#X#X##X##X#XXXXXXXX#X#X X##X#XXX#X####XX##XXXX X
+X#####X#############X#####X#X#####X#######################X#######X#X#########X#####X#X###X#X###X#X#####X###X#######X#############X###X#####X###X#######  X
+X#XXXXX#X###XX###XXXX#XXXX##XXX#XXX##XXX#XXXXXXXXX##X###X#XXX#X#XX##X#X#X###X#XX##X##X#XX#X#X#XXX#XX#XXXXXX#X#X###XXX#XXX#XXX###X#X#X##XX#XXX#X####X#XX X X
+X#X#######X#X#####X#X#####X###################X###########X#######X#X###X###X#############X#X#X###########X#X###################X#X###X#######X#######    X
+X#X##X####X#X#XXX#X##XXXX#X###XXXX##X#XXX#X#X#X##X##X##X#XX#XXXXX#X#X###X#XXX#XX#XXXX###X#X#X###XX###X####X#X#X#XXX###XXX###X#X#X#X#####XXXXXXX#XXXX#X X  X
+X#X#####X###X#X#X#########X#########X#######X#############X#X###X#X###X###X###########X#X###X#X#####X###############X#X###########X#X###X#####X#####  X   X
+X#XXXX#XX##XX#X##X#XX#X#X#X##XX#X#X###X#X#X####X##X##XX###X####XX#X###X#XXX#XXX#XXXXX#X#X#X###XXXXX#X##X#XXXX######X##X#XX##XX##X#X#X#X####XX#XX#XXXX   X X
+X###X#########X#########X#####X###X#############X#######X###X#####X#X#X#X###X#########X###X#################X###X###X#X#X#######X###X#####X###X###  X   X X
+X#X#X#X##XXXX###X#X#XXXX XXXX##X#XXX##XX##X##X####XX##X###XXX#####X#X###X##X###XX###X#X#X#XXX#X####XXX####X#XX#X#XX#X#X#XXX##XXXX#XXX#XXXXXXX#X #XX X XXX X
+X#####X#################X###X#X###########X###X#########X#X#X#X#######X###X###X###X###X#X#######X#######X#################X###############X# #X X X       X
+X#XX##XX##XXX#XX#XXX#XXXX#######X##XX##XXX##X#XX##XXXXX#X#X###X#XXX#X##XX#X#XXX#X#X###X#XXXXXX#X##X##X#XX#X#XXXXX###X#XX##XXXXXX#XX###XXX#X## X X XX XXXXXX
+X###########X#######X#######X#################X#######X###X#X#X#X#######X###X###X###X###########X#############X#X###X###############X#########X           X
+XX#XXXXXXXX#XX#XXXX###XX#XX#XX##X#XX#XX##XX#X#X###X#X#X##X##X#####XX#X####XXX#####X##XX#XX###XX#XXXX#XXX#XXXX#X#XXXXX##XXXX#XXX#XXX#XXX#XX#XX X X  XXXXX  X
+X#################X#######X#########################X###########X#############X###X#################################X#############X#########X     X       X
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
